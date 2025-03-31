@@ -1,0 +1,12 @@
+body{
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:visited {
+    color: blueviolet;
+}
