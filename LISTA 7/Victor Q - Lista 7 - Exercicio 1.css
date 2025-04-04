@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia,  serif;
+    background-color: #FAF7F2;
+    
+}
+
+header{
+    display: flex;
+    background-color: #641D39;
+   padding: 15px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: #F5E8D0;
+
+}
+
+.page h1 {
+    font-size: 30px;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+.right-buttons h2{
+    font-size: 20px;
+}
+
+
+
+.right-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.logo{
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 17%;
+}
+
+.logo img{
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    
+}
+
+.card h2{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: clamp(10px, 10vw, 20px);
+    height: 56px;
+}
+
+span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: purple;
+    font-size: large;
+}
+
+.card{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    flex-direction: column;
+    flex-basis: 325px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 25px;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgb(150, 150, 150);
+}
+
+.card:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+}
+
+
+button{
+    font-family: Georgia, serif;
+    background-color: #B88A44;
+    color: white;
+    width: 275px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: x-large;
+    border: 0;
+
+
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: hsl(300, 50%, 25%);
+    box-shadow: 2px 2px 5px rgb(150, 150, 150);
+}
+
+ .imagem{
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 15px;
+    justify-content: center;
+    width: 275px;
+    height: 300px;
+    
+ }
+
+ .imagem img {
+    object-fit: contain; /* Mantém a proporção da imagem */
+}
