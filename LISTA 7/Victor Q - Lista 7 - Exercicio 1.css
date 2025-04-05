@@ -17,18 +17,21 @@ header{
     height: 80px;
     justify-content: space-between;
     align-items: center;
-    color: #F5E8D0;
-
+    color: #F5E8D0; 
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    
 }
 
 .page h1 {
-    font-size: 30px;
+    font-size: 2.0vw;
     flex-wrap: nowrap;
     flex-shrink: 1;
 }
 
 .right-buttons h2{
-    font-size: 20px;
+    font-size: 2.0vw;
 }
 
 
@@ -43,6 +46,7 @@ header{
     box-sizing: border-box;
     overflow: hidden;
     max-width: 17%;
+    min-width: 130px;
 }
 
 .logo img{
@@ -55,9 +59,12 @@ header{
 .container{
     display: flex;
     gap: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 25px;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
     
 }
 
@@ -106,11 +113,12 @@ button{
     border-radius: 15px;
     font-size: x-large;
     border: 0;
-
-
+    
+    
 }
 
 button:hover{
+    transition: transform 0.5s;
     transform: scale(1.1);
     background-color: hsl(300, 50%, 25%);
     box-shadow: 2px 2px 5px rgb(150, 150, 150);
