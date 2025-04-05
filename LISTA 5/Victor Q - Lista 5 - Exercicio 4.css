@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    gap: 10px
+
+}
+
+.coluna{
+    border: 1px solid black;
+    color: red;
+    text-align: center;
+    padding: 5px;
+}

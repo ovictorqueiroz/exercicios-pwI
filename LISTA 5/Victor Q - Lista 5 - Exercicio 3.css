@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+}
+
+
+.intro{
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
+.descricao{
+    display: flex;
+    justify-content: end;
+    color: peru;
+}
